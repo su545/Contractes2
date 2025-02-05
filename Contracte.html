@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .text {
+            width: 60%;
+        }
+        .image {
+            width: 35%;
+            text-align: right;
+            margin-top: 33%;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .signature {
+            margin-top: 40px;
+            margin-right: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .signature div {
+            text-align: center;
+            width: 45%;
+        }
+        .signature hr {
+            width: 100%;
+            margin-left: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>CONTRACTE DE FIDELITAT </h1>
+            <p><strong>Fecha:</strong> <span id="fecha"></span></p>
+            <p><strong>Entre:</strong> Cendrassos, amb identificació N° <u>ProfessorCendrassos;</u></p>
+            <p><strong>I:</strong> Pep Hernandez Navarra, amb identificació N° <u>696969696969;</u></p>
+            <p><strong>I:</strong> Josep Bosom Gonzàlez, amb identificació N° <u>000000000777;</u></p>
+            
+            <h2>Clàusules</h2>
+            <p><strong>Primera:</strong> Donar el 100% en aquest projecte i projectes a futur.</p>
+            <p><strong>Segona:</strong> La finalització del contracte es portarà a terme a finals de curs.</p>
+            <p><strong>Tercera:</strong> Obligacións de el contractat i el contractant, les dos entitats s'hauran de respectar i valorar el treball fet per cadaescuna de les dos parts. </p>
+            <p><strong>Quarta:</strong> Causes per les quals pot finalitzar el contracte són: Incumpliment de les clausules abans proposades, faltes de respecte per alguna de les dos parts.</p>
+            <p><strong>Cinquena:</strong> El salari proposat per els contractats serà de 1 QuackCoin= 0'0000000001€ </p>
+          <br>
+          <br>
+            
+            <div class="signature">
+                <div>
+                    <img src="Sin título.jpg">
+                    <br>
+                    <br>
+                    <hr style="border: 2px solid black; width: 75%;">
+                    <p>Firma del Contratante</p>
+                </div>
+         
+                <div>
+                    <img src="Sin título2.png">
+                    <br>
+                    <hr style="border: 2px solid black; width: 75%;">
+                    <p>Firma del Contratado</p>
+                    <br>
+                </div>
+
+                <div>
+                    <img src="Sin título3.png" alt="">
+                    <hr style="border: 2px solid black; width: 75%;">
+                    <p>Firma del Contratado</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://www.clarin.com/2018/10/10/VIHT327L5_1256x620__1.jpg" alt="Imagen del contrato">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("fecha").textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
